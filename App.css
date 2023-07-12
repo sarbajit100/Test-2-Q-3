@@ -1,0 +1,18 @@
+.skeleton{
+  opacity: .5;
+  animation: skel-eff 1s linear infinite;
+}
+.skeleton-t{
+  width:100vw;
+  height: 0.5rem;
+  
+}
+@keyframes skel-eff {
+  0%{
+    background-color: gray;
+  }
+  100%{
+    background-color: white;
+  }
+ 
+}
